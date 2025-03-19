@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Aditya Sharma',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Explore top-notch cybersecurity solutions with Aditya Sharma. Our expert services ensure robust protection for your digital assets. From threat detection to risk management, trust us for comprehensive cybersecurity solutions tailored to your needs. Safeguard your online presence with Aditya Sharma's cutting-edge expertise in cyber Security.',
+    siteUrl: 'https://adityasec.in', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@assass1nmarcos',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'UA-15666519-2',
       },
     },
   ],
